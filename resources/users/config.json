@@ -1,0 +1,53 @@
+{
+	"type": "UserCollection",
+	"properties": {
+		"firstname": {
+			"name": "firstname",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "firstname",
+			"order": 0
+		},
+		"lastname": {
+			"name": "lastname",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "lastname",
+			"order": 1
+		},
+		"phonenumber": {
+			"name": "phonenumber",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "phonenumber",
+			"order": 2
+		},
+		"address": {
+			"name": "address",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "address",
+			"order": 3
+		},
+		"zipcode": {
+			"name": "zipcode",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "zipcode",
+			"order": 4
+		},
+		"doctors": {
+			"name": "doctors",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "doctors",
+			"order": 5
+		}
+	}
+}
